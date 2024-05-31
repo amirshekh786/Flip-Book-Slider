@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Flip Book Slider</title>
+</head>
+<body>
+	<div class="book-section">
+       <p>With ❤️ by <a href="" target="_blank">Amir Shekh</a></p>
+        <div class="container">
+           <div class="right">
+                <figure class="back" id="back-cover"></figure>
+                <figure class="front" style="background-image: url('images/02.png');"></figure>
+            </div>
+            <div class="right">
+                <figure class="back" style="background-image: url('images/almscare.png');"></figure>
+                <figure class="front" style="background-image: url('images/aloura-screenshot.png');"></figure>
+            </div>
+            <div class="right">
+                <figure class="back" style="background-image: url('images/aiven.jpg');"></figure>
+                <figure class="front" style="background-image: url('images/almscare.png');"></figure>
+            </div>
+            <div class="right">
+                <figure class="back" style="background-image: url('images/alsharifgroup-screenshot.png');"></figure>
+                <figure class="front" style="background-image: url('images/alsharifx-screenshot.png');"></figure>
+            </div>
+            <div class="right">
+                <figure class="back" style="background-image: url('images/01.png');"></figure>
+                <figure class="front" style="background-image: url('images/03.png');"></figure>
+            </div>
+            <div class="right">
+                <figure class="back" style="background-image: url('images/02.png');"></figure>
+                <figure class="front" id="cover">
+                    <h1>Amir</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, modi.</p>
+                </figure>
+            </div>
+        </div>
+        <button onclick="turnLeft()">Prev</button> <button onclick="turnRight()">Next</button>
+        <br/>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
